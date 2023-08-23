@@ -10,14 +10,14 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "YandexMapsMobile",
-            targets: ["YandexMapsMobile"]),
+            name: "YandexMapsMobileWrapper",
+            targets: ["YandexMapsMobileWrapper"]),
     ],
     dependencies: [
     ],
     targets: [
         .target(
-            name: "YandexMapsMobile",
+            name: "YandexMapsMobileWrapper",
             dependencies: [
                 .target(name: "YandexMapsMobile"),
             ],
