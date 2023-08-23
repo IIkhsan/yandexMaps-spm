@@ -6,12 +6,12 @@ import PackageDescription
 let package = Package(
     name: "YandexMapsMobileWrapper",
     platforms: [
-        .iOS(.v11),
+        .iOS(.v12),
     ],
     products: [
         .library(
-            name: "YandexMapsMobileWrapper",
-            targets: ["YandexMapsMobileWrapper"]),
+            name: "YandexMapsMobile",
+            targets: ["YandexMapsMobile"]),
     ],
     dependencies: [
     ],
@@ -30,8 +30,8 @@ let package = Package(
             ]),
         .binaryTarget(
             name: "YandexMapsMobile",
-            url: "https://maps-ios-pods-public.s3.yandex.net/YandexMapsMobile-4.2.2-full.framework.zip",
-            checksum: "2401186ce1ad6ae460ebef163d1c68ea78eea34b7a0d47b8a0ac54f4ed7f6f66"
+            url: "https://github.com/c-villain/YandexMapsMobileLite/releases/download/4.3.2/YandexMapsMobile.xcframework.zip",
+            checksum: "65208320d8e7e29a70149b71e11d15b93e031f3e1b6bcd6b01f2fbd23ae52a30"
             ),
     ]
 )
