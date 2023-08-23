@@ -17,7 +17,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "YandexMapsMobileWrapper",
+            name: "YandexMapsMobile",
             dependencies: [
                 .target(name: "YandexMapsMobile"),
             ],
