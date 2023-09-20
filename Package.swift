@@ -31,7 +31,7 @@ let package = Package(
         .binaryTarget(
             name: "YandexMapsMobile",
             url: "https://github.com/c-villain/YandexMapsMobile/releases/download/4.3.2/YandexMapsMobile.xcframework.zip",
-            checksum: "65208320d8e7e29a70149b71e11d15b93e031f3e1b6bcd6b01f2fbd23ae52a30"
+            checksum: "7bedd363d78d48e9c5d32e57b0ae3489bdeee905bfe387ce559ba7bf0a2cbe9c"
             ),
     ]
 )
